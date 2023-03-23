@@ -8,4 +8,8 @@ df = data.frame(x, y)
 
 ggplot()+
   geom_point(aes(x, y), size = 3)
-theme_bw()
+theme_bw()+
+theme(
+	axis.title = element_text(size = 20),
+	axis.text = element_text(size = 50)
+)
