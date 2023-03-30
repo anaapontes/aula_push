@@ -9,3 +9,4 @@ df = data.frame(x, y)
 ggplot( )+
   geom_point(aes(x, y), size = 3, color = "blue")
   
+
